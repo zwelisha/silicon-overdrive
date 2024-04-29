@@ -41,7 +41,7 @@ You can also install Jest by running
 silicon-overdirve
     .node_modules
     tests
-        test.js
+        app.test.js
     .gitignore
     app.mjs
     package-lock.js
@@ -95,7 +95,7 @@ then copy the localhost url and open it on your browser
 
 ### Testing the code
 Run this command 
-```npm test```
+```npx jest```
 
 Have fun
 

@@ -3,5 +3,8 @@
     "@slack/bolt": "^3.18.0",
     "dotenv": "^16.4.5",
     "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "supertest": "^7.0.0"
   }
 }
