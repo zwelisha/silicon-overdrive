@@ -81,7 +81,9 @@ with actually values from your slack api app.
 
 ```
 SLACK_CHANNEL = "your_slack_channel_name"
+
 SLACK_BOT_TOKEN = "your slack_app_token"
+
 SLACK_SIGNING_SECRET = "your_slack_app_scret"
 ```
 ```
