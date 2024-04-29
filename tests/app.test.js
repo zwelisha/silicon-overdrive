@@ -44,7 +44,7 @@ describe('POST /api/send-channel-message', () => {
         const requestBody = {
             token: process.env.SLACK_BOT_TOKEN,
             channel: process.env.SLACK_CHANNEL,
-            text: 'Testing send if everything is okay'
+            text: 'Sharks are kiffer than bulls'
         };
         const response = await request(app)
             .post('/api/send-channel-message')
@@ -54,10 +54,9 @@ describe('POST /api/send-channel-message', () => {
         expect(response.body.success).toBe(true);
         expect(response.body.message).toContain('Message sent successfully to test_channel channel');
     });
-
+    
     it('responds with error message when parameters are missing', async () => {
         const requestBody = {
-            // Missing token, channel, and text
         };
         const response = await request(app)
             .post('/api/send-channel-message')
