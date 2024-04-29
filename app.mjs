@@ -14,6 +14,12 @@ const slackApp = new Slack.App({
 
 app.use(express.json());
 
+/**
+ * API Endpoint for sending a custom message to a Slack channel
+ * @param {string} req.body.token - The Slack token used for authentication
+ * @param {string} req.body.channel - The ID or name of the Slack channel to send the message to
+ * @param {string} req.body.text - The text content of the custom message to send
+ */
 app.post('/api/send-channel-message', async (req, res) => {
     const { token, channel, text } = req.body;
     
