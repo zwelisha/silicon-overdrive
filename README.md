@@ -86,6 +86,8 @@ SLACK_BOT_TOKEN = "your slack_app_token"
 
 SLACK_SIGNING_SECRET = "your_slack_app_scret"
 ```
+
+Finally, after creating the .env file run the app
 ```
 node app.mjs
 ```
