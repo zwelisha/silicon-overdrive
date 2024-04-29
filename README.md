@@ -2,7 +2,7 @@
 
 ## Description
 This API endpoint consumes the Slack messaging methods to 
-post a custom message to a passed channel.
+post a custom message to a channel.
 
 ## Getting Started
 
@@ -32,8 +32,8 @@ The installation documentation for Prettier can be found [here](https://prettier
 
 #### 5. Jest
 The installation documentation for Jest can be found [here](https://jestjs.io/docs/getting-started)
-You can also install Jest by running ```npm install supertest --save-dev
-```
+You can also install Jest by running 
+```npm install supertest --save-dev```
 
 #### Folder Structure
 
@@ -57,7 +57,7 @@ Use Prettier extension for consistency
 
 #### 1. Clone the project
 ```
-git clone https://github.com/zwelisha/silicon-overdrive
+git clone https://github.com/zwelisha/silicon-overdrive.git
 ```
 
 #### 2. Change Directory (To the root folder of the project)
